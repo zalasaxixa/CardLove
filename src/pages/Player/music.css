@@ -1,0 +1,153 @@
+.music-layer {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background: linear-gradient(135deg, rgb(224, 26, 122), rgb(250, 250, 250));  
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.player-container {
+  text-align: center;
+  width: 350px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.album-art {
+  width: 150px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  border: #333 solid 3px;
+  object-fit: cover;
+  animation: pulse 3s infinite;
+}
+
+.controls button {
+  position: relative;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  align-items: center;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.controls button.active {
+  color: #03ff5b; /* hijau Spotify */
+}
+
+.controls button:hover {
+  color: #03ff5b;
+}
+
+.mode {
+  font-size: 12px;
+  font-weight: bold;
+}
+.song-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.bottom-layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+.volume label {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+ .icon-redo {
+    width: 14px;
+    height:14px;
+  }
+
+@keyframes bounce {
+  0%,
+  100% {
+    height: 20px;
+  }
+  50% {
+    height: 40px;
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  .music-layer {
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    background: linear-gradient(135deg, rgb(224, 26, 122), rgb(250, 250, 250)); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .player-container {
+    text-align: center;
+   
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .album-art {
+    width: 100px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+
+  .controls button {
+    margin: 5px;
+    font-size: 16px;
+    color: black;
+  }
+
+  .mode {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .song-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .ces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .icon-redo {
+    width: 12px;
+    height:12px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.Header {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 40dvh;
+}
+
+.Header-nf {
+  background: #f88379;
+  width: 95vh;
+  padding: 18px 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #fefefe;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .Header {
+    flex-wrap: wrap;
+    justify-items: center;
+    text-align: center;
+    flex: 1 1 40%;
+    padding: 15px;
+    margin-top:-10px ;
+  }
+
+  .Header-nf {
+    width: 100dvh;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .Header {
+    margin: 10px;
+  }
+  .Header-nf {
+    width: 40vh;
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 120px;
+    margin-left : 50px;
+  }
+}
