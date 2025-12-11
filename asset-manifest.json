@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CardLove/static/css/main.2c63de32.css",
-    "main.js": "/CardLove/static/js/main.15a4c84b.js",
+    "main.js": "/CardLove/static/js/main.87ed68bb.js",
     "static/js/453.2381c94d.chunk.js": "/CardLove/static/js/453.2381c94d.chunk.js",
     "static/media/Mangu.mp3": "/CardLove/static/media/Mangu.519f029d3b01a4dfe01a.mp3",
     "static/media/NantiKitaSepertiIni.mp3": "/CardLove/static/media/NantiKitaSepertiIni.ff4e8d24fe09181735da.mp3",
@@ -31,11 +31,11 @@
     "static/media/Lia8.jpg": "/CardLove/static/media/Lia8.2aced8d44535b5e343be.jpg",
     "index.html": "/CardLove/index.html",
     "main.2c63de32.css.map": "/CardLove/static/css/main.2c63de32.css.map",
-    "main.15a4c84b.js.map": "/CardLove/static/js/main.15a4c84b.js.map",
+    "main.87ed68bb.js.map": "/CardLove/static/js/main.87ed68bb.js.map",
     "453.2381c94d.chunk.js.map": "/CardLove/static/js/453.2381c94d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c63de32.css",
-    "static/js/main.15a4c84b.js"
+    "static/js/main.87ed68bb.js"
   ]
 }
